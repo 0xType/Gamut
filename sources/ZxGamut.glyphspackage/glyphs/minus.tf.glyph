@@ -1,0 +1,50 @@
+{
+glyphname = minus.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,678,l),
+(195,520,l),
+(1105,520,l),
+(1105,678,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(145,755,l),
+(145,445,l),
+(1155,445,l),
+(1155,755,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,614,l),
+(205,584,l),
+(1095,584,l),
+(1095,614,l)
+);
+}
+);
+width = 1300;
+}
+);
+}

@@ -1,0 +1,50 @@
+{
+glyphname = hyphen.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(989,540,l),
+(989,700,l),
+(311,700,l),
+(311,540,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1057,448,l),
+(1057,798,l),
+(243,798,l),
+(243,448,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(935,605,l),
+(935,635,l),
+(365,635,l),
+(365,605,l)
+);
+}
+);
+width = 1300;
+}
+);
+}

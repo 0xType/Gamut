@@ -1,0 +1,209 @@
+{
+glyphname = L;
+kernLeft = H;
+kernRight = L;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (639,0);
+},
+{
+name = top;
+pos = (639,1500);
+}
+);
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1122,0,l),
+(1122,12,l),
+(1066,164,l),
+(279,164,l),
+(324,119,l),
+(324,1500,l),
+(148,1500,l),
+(148,0,l)
+);
+}
+);
+width = 1170;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (633,0);
+},
+{
+name = top;
+pos = (633,1500);
+}
+);
+layerId = m002;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1254,0,l),
+(1254,20,l),
+(1156,400,l),
+(483,400,l),
+(528,355,l),
+(528,1500,l),
+(112,1500,l),
+(112,0,l)
+);
+}
+);
+width = 1318;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (587,0);
+},
+{
+name = top;
+pos = (587,1500);
+}
+);
+layerId = m003;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1040,0,l),
+(1040,4,l),
+(1030,30,l),
+(185,30,l),
+(200,15,l),
+(200,1500,l),
+(168,1500,l),
+(168,0,l)
+);
+}
+);
+width = 1090;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (649,0);
+},
+{
+name = top;
+pos = (649,1500);
+}
+);
+associatedMasterId = m002;
+layerId = "A3E2DDF9-7BF4-42B1-BF64-3B62875BF155";
+name = "Jun 7, 24 at 20:32";
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,0,l),
+(544,0,l),
+(544,1500,l),
+(128,1500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,400,l),
+(128,0,l),
+(1270,0,l),
+(1270,20,l),
+(1172,400,l)
+);
+}
+);
+width = 1352;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (639,0);
+},
+{
+name = top;
+pos = (639,1500);
+}
+);
+associatedMasterId = m01;
+layerId = "F4114444-98AE-4F47-9CA7-4CBE5108A744";
+name = "Jun 7, 24 at 20:32";
+shapes = (
+{
+closed = 1;
+nodes = (
+(148,0,l),
+(324,0,l),
+(324,1500,l),
+(148,1500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(148,164,l),
+(148,0,l),
+(1122,0,l),
+(1122,12,l),
+(1066,164,l)
+);
+}
+);
+width = 1158;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (583,0);
+},
+{
+name = top;
+pos = (583,1500);
+}
+);
+associatedMasterId = m003;
+layerId = "8188BC3D-4845-4A14-9672-530D271F2988";
+name = "Jun 7, 24 at 20:32";
+shapes = (
+{
+closed = 1;
+nodes = (
+(164,0,l),
+(196,0,l),
+(196,1500,l),
+(164,1500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(164,30,l),
+(164,0,l),
+(1036,0,l),
+(1036,4,l),
+(1026,30,l)
+);
+}
+);
+width = 1086;
+}
+);
+unicode = 76;
+}

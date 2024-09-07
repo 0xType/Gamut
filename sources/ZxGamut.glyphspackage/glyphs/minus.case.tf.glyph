@@ -1,0 +1,50 @@
+{
+glyphname = minus.case.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,808,l),
+(195,650,l),
+(1105,650,l),
+(1105,808,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(145,885,l),
+(145,575,l),
+(1155,575,l),
+(1155,885,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,744,l),
+(205,714,l),
+(1095,714,l),
+(1095,744,l)
+);
+}
+);
+width = 1300;
+}
+);
+}

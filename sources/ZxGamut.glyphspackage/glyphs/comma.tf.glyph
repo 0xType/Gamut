@@ -1,0 +1,89 @@
+{
+glyphname = comma.tf;
+layers = (
+{
+associatedMasterId = m01;
+layerId = "D7A1B53C-DB4B-429E-979C-A8A606F3B1BD";
+name = "May 16, 24 at 21:20";
+shapes = (
+{
+ref = period;
+}
+);
+width = 420;
+},
+{
+associatedMasterId = m01;
+layerId = "EF7DA7D8-90F5-46A9-92F8-A7DE7DBC90D6";
+name = "May 19, 24 at 11:45";
+shapes = (
+{
+closed = 1;
+nodes = (
+(143,196,l),
+(36,-308,l),
+(36,-320,l),
+(139,-320,l),
+(353,184,l),
+(353,196,l)
+);
+}
+);
+width = 463;
+},
+{
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(539,-318,l),
+(763,212,l),
+(763,224,l),
+(547,224,l),
+(426,-306,l),
+(426,-318,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m002;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(545,-338,l),
+(798,276,l),
+(798,296,l),
+(507,296,l),
+(380,-318,l),
+(380,-338,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m003;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(543,-280,l),
+(686,69,l),
+(686,73,l),
+(600,73,l),
+(499,-276,l),
+(499,-280,l)
+);
+}
+);
+width = 1300;
+}
+);
+}

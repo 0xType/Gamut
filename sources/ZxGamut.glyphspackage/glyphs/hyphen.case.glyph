@@ -1,0 +1,50 @@
+{
+glyphname = hyphen.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(816,670,l),
+(816,830,l),
+(138,830,l),
+(138,670,l)
+);
+}
+);
+width = 955;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(914,578,l),
+(914,928,l),
+(100,928,l),
+(100,578,l)
+);
+}
+);
+width = 1014;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(682,735,l),
+(682,765,l),
+(112,765,l),
+(112,735,l)
+);
+}
+);
+width = 794;
+}
+);
+}

@@ -1,0 +1,88 @@
+{
+glyphname = equal.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,479,l),
+(195,322,l),
+(1105,322,l),
+(1105,479,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(195,882,l),
+(195,725,l),
+(1105,725,l),
+(1105,882,l)
+);
+}
+);
+width = 1300;
+},
+{
+associatedMasterId = m01;
+layerId = "850CF0B4-B8D7-4AE4-9D7A-8F8A58FE0AA0";
+name = "May 18, 24 at 20:01";
+shapes = (
+{
+ref = plus;
+}
+);
+width = 1060;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(145,506,l),
+(145,192,l),
+(1155,192,l),
+(1155,506,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(145,1012,l),
+(145,698,l),
+(1155,698,l),
+(1155,1012,l)
+);
+}
+);
+width = 1300;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,446,l),
+(205,416,l),
+(1095,416,l),
+(1095,446,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,789,l),
+(205,759,l),
+(1095,759,l),
+(1095,789,l)
+);
+}
+);
+width = 1300;
+}
+);
+}

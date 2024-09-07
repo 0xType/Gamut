@@ -1,0 +1,90 @@
+{
+glyphname = equal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(118,479,l),
+(118,322,l),
+(1028,322,l),
+(1028,479,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,882,l),
+(118,725,l),
+(1028,725,l),
+(1028,882,l)
+);
+}
+);
+width = 1146;
+},
+{
+associatedMasterId = m01;
+layerId = "850CF0B4-B8D7-4AE4-9D7A-8F8A58FE0AA0";
+name = "May 18, 24 at 20:01";
+shapes = (
+{
+ref = plus;
+}
+);
+visible = 1;
+width = 1060;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,506,l),
+(124,192,l),
+(1134,192,l),
+(1134,506,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(124,1012,l),
+(124,698,l),
+(1134,698,l),
+(1134,1012,l)
+);
+}
+);
+width = 1258;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,446,l),
+(128,416,l),
+(1018,416,l),
+(1018,446,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,789,l),
+(128,759,l),
+(1018,759,l),
+(1018,789,l)
+);
+}
+);
+width = 1146;
+}
+);
+unicode = 61;
+}

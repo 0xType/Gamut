@@ -1,0 +1,1100 @@
+{
+.appVersion = "3321";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z a.cv01 g.cv02 zero one two three four five six seven eight nine zero.zero zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.tf.zero space nbspace period comma colon semicolon ellipsis exclam question periodcentered bullet asterisk numbersign slash backslash colon.case period.tf comma.tf colon.tf colon.case.tf hyphen endash emdash underscore hyphen.case endash.case emdash.case hyphen.tf hyphen.case.tf parenleft parenright braceleft braceright bracketleft bracketright quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle at ampersand copyright registered trademark degree bar at.case cent dollar euro sterling yen plus minus multiply divide equal greater less asciitilde asciicircum percent plus.case minus.case multiply.case divide.case equal.case greater.case less.case plus.tf minus.tf multiply.tf divide.tf equal.tf greater.tf less.tf plus.case.tf minus.case.tf multiply.case.tf divide.case.tf equal.case.tf greater.case.tf less.case.tf grave";
+name = All;
+},
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z zero one two three four five six seven eight nine zero.zero zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.tf.zero";
+name = UppercaseAndNumber;
+},
+{
+code = "colon hyphen endash emdash at plus minus multiply divide equal greater less colon.tf hyphen.tf plus.tf minus.tf multiply.tf divide.tf equal.tf greater.tf less.tf 
+";
+name = CaseSensitiveSymbolsBefore;
+},
+{
+code = "colon.case hyphen.case endash.case emdash.case at.case plus.case minus.case multiply.case divide.case equal.case greater.case less.case colon.case.tf hyphen.case.tf plus.case.tf minus.case.tf multiply.case.tf divide.case.tf equal.case.tf greater.case.tf less.case.tf";
+name = CaseSensitiveSymbolsAfter;
+}
+);
+date = "2024-09-26 06:11:17 +0000";
+familyName = "Zx Gamut";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature tnum;
+feature pnum;
+feature case;
+feature zero;
+feature cv01;
+feature cv02;
+feature calt;
+";
+tag = aalt;
+},
+{
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+
+sub period by period.tf;
+sub comma by comma.tf;
+sub colon by colon.tf;
+sub hyphen by hyphen.tf;
+sub plus by plus.tf;
+sub minus by minus.tf;
+sub multiply by multiply.tf;
+sub divide by divide.tf;
+sub equal by equal.tf;
+sub greater by greater.tf;
+sub less by less.tf;
+
+sub colon.case by colon.case.tf;
+sub hyphen.case by hyphen.case.tf;
+sub plus.case by plus.case.tf;
+sub minus.case by minus.case.tf;
+sub multiply.case by multiply.case.tf;
+sub divide.case by divide.case.tf;
+sub equal.case by equal.case.tf;
+sub greater.case by greater.case.tf;
+sub less.case by less.case.tf;
+";
+tag = tnum;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+sub period.tf by period;
+sub comma.tf by comma;
+sub colon.tf by colon;
+sub colon.case.tf by colon.case;
+sub hyphen.tf by hyphen;
+sub hyphen.case.tf by hyphen.case;
+sub plus.tf by plus;
+sub minus.tf by minus;
+sub multiply.tf by multiply;
+sub divide.tf by divide;
+sub equal.tf by equal;
+sub greater.tf by greater;
+sub less.tf by less;
+sub plus.case.tf by plus.case;
+sub minus.case.tf by minus.case;
+sub multiply.case.tf by multiply.case;
+sub divide.case.tf by divide.case;
+sub equal.case.tf by equal.case;
+sub greater.case.tf by greater.case;
+sub less.case.tf by less.case;
+";
+tag = pnum;
+},
+{
+code = "sub colon by colon.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub at by at.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub multiply by multiply.case;
+sub divide by divide.case;
+sub equal by equal.case;
+sub greater by greater.case;
+sub less by less.case;
+
+sub colon.tf by colon.case.tf;
+sub hyphen.tf by hyphen.case.tf;
+sub plus.tf by plus.case.tf;
+sub minus.tf by minus.case.tf;
+sub multiply.tf by multiply.case.tf;
+sub divide.tf by divide.case.tf;
+sub equal.tf by equal.case.tf;
+sub greater.tf by greater.case.tf;
+sub less.tf by less.case.tf;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+sub zero.tf by zero.tf.zero;
+";
+tag = zero;
+},
+{
+automatic = 1;
+code = "sub a by a.cv01;
+";
+notes = "cvParameters {
+
+	FeatUILabelNameID {
+		name 3 1 0x0409 \"Double-storey a\";  # English US
+		name 1 0 0 \"Double-storey a\";  # Mac English
+	};
+
+	FeatUITooltipTextNameID {
+		name 3 1 0x0409 \"Double-storey a\";  # English US
+		name 1 0 0 \"Double-storey a\";  # Mac English
+	};
+
+	SampleTextNameID {
+		name 3 1 0x0409 \"Example text with double-storey a\";  # English US
+		name 1 0 0 \"Example text with double-storey a\";  # Mac English
+	};
+
+	ParamUILabelNameID {
+		name 3 1 0x0409 \"Double-storey a\";  # English US
+		name 1 0 0 \"Double-storey a\";  # Mac English
+	};
+	
+	Character 0x61; # UTF-8
+	Character 0x0061; # UTF-16
+	
+};";
+tag = cv01;
+},
+{
+automatic = 1;
+code = "sub g by g.cv02;
+";
+notes = "cvParameters {
+
+	FeatUILabelNameID {
+		name 3 1 0x0409 \"Double-storey g\";  # English US
+		name 1 0 0 \"Double-storey g\";  # Mac English
+	};
+
+	FeatUITooltipTextNameID {
+		name 3 1 0x0409 \"Double-storey g\";  # English US
+		name 1 0 0 \"Double-storey g\";  # Mac English
+	};
+
+	SampleTextNameID {
+		name 3 1 0x0409 \"Example text with double-storey g\";  # English US
+		name 1 0 0 \"Example text with double-storey g\";  # Mac English
+	};
+
+	ParamUILabelNameID {
+		name 3 1 0x0409 \"Double-storey g\";  # English US
+		name 1 0 0 \"Double-storey g\";  # Mac English
+	};
+	
+	Character 0x67; # UTF-8
+	Character 0x0067; # UTF-16
+
+};";
+tag = cv02;
+},
+{
+code = "sub @CaseSensitiveSymbolsBefore' @UppercaseAndNumber by @CaseSensitiveSymbolsAfter;
+sub @UppercaseAndNumber @CaseSensitiveSymbolsBefore' by @CaseSensitiveSymbolsAfter;
+";
+tag = calt;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100
+);
+iconName = Light;
+id = m003;
+metricValues = (
+{
+over = 24;
+pos = 1500;
+},
+{
+over = 24;
+pos = 1500;
+},
+{
+over = 24;
+pos = 1050;
+},
+{
+over = -24;
+},
+{
+over = -24;
+pos = -420;
+},
+{
+}
+);
+name = Thin;
+userData = {
+GSExtrudeAngle = 30;
+GSExtrudeOffset = 15;
+};
+visible = 1;
+},
+{
+axesValues = (
+400
+);
+id = m01;
+metricValues = (
+{
+over = 24;
+pos = 1500;
+},
+{
+over = 24;
+pos = 1500;
+},
+{
+over = 24;
+pos = 1050;
+},
+{
+over = -24;
+},
+{
+over = -24;
+pos = -420;
+},
+{
+}
+);
+name = Regular;
+visible = 1;
+},
+{
+axesValues = (
+900
+);
+iconName = Bold;
+id = m002;
+metricValues = (
+{
+over = 24;
+pos = 1500;
+},
+{
+over = 24;
+pos = 1500;
+},
+{
+over = 24;
+pos = 1050;
+},
+{
+over = -24;
+},
+{
+over = -24;
+pos = -420;
+},
+{
+}
+);
+name = Black;
+visible = 1;
+}
+);
+instances = (
+{
+name = Regular;
+type = variable;
+},
+{
+axesValues = (
+100
+);
+instanceInterpolations = {
+m003 = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+m003 = 0.66667;
+m01 = 0.33333;
+};
+name = "Extra Light";
+weightClass = 200;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+m003 = 0.33333;
+m01 = 0.66667;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+500
+);
+instanceInterpolations = {
+m002 = 0.2;
+m01 = 0.8;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+600
+);
+instanceInterpolations = {
+m002 = 0.4;
+m01 = 0.6;
+};
+name = "Semi Bold";
+weightClass = 600;
+},
+{
+axesValues = (
+700
+);
+instanceInterpolations = {
+m002 = 0.6;
+m01 = 0.4;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+800
+);
+instanceInterpolations = {
+m002 = 0.8;
+m01 = 0.2;
+};
+name = "Extra Bold";
+weightClass = 800;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+m002 = 1;
+};
+name = Black;
+weightClass = 900;
+}
+);
+kerningLTR = {
+m003 = {
+"@MMK_L_A" = {
+"@MMK_R_O" = -82;
+"@MMK_R_S" = -14;
+"@MMK_R_T" = -157;
+"@MMK_R_U" = -48;
+"@MMK_R_W" = -123;
+"@MMK_R_Y" = -180;
+"@MMK_R_o" = -18;
+V = -216;
+};
+"@MMK_L_B" = {
+"@MMK_R_O" = 0;
+"@MMK_R_S" = -10;
+"@MMK_R_o" = 6;
+};
+"@MMK_L_C" = {
+"@MMK_R_A" = -18;
+"@MMK_R_O" = 0;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_D" = {
+"@MMK_R_A" = -56;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -24;
+"@MMK_R_S" = -28;
+};
+"@MMK_L_F" = {
+"@MMK_R_o" = -30;
+};
+"@MMK_L_G" = {
+"@MMK_R_A" = -25;
+"@MMK_R_n" = 10;
+};
+"@MMK_L_I" = {
+"@MMK_R_H" = 30;
+"@MMK_R_o" = -18;
+};
+"@MMK_L_K" = {
+"@MMK_R_O" = -58;
+"@MMK_R_n" = -24;
+"@MMK_R_o" = -60;
+};
+"@MMK_L_L" = {
+"@MMK_R_O" = -88;
+"@MMK_R_U" = -50;
+"@MMK_R_i" = 0;
+"@MMK_R_o" = -40;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -82;
+"@MMK_R_I" = -16;
+"@MMK_R_O" = 20;
+"@MMK_R_T" = -64;
+"@MMK_R_V" = -56;
+"@MMK_R_W" = -56;
+"@MMK_R_X" = -38;
+"@MMK_R_Y" = -82;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -186;
+"@MMK_R_o" = -60;
+};
+"@MMK_L_R" = {
+"@MMK_R_O" = -8;
+"@MMK_R_T" = -23;
+};
+"@MMK_L_S" = {
+"@MMK_R_O" = -10;
+"@MMK_R_y" = -48;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -148;
+"@MMK_R_O" = -64;
+"@MMK_R_n" = -160;
+"@MMK_R_o" = -240;
+"@MMK_R_u" = -190;
+"@MMK_R_y" = -126;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -64;
+};
+"@MMK_L_V" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -159;
+"@MMK_R_u" = -100;
+A = -216;
+};
+"@MMK_L_W" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -94;
+};
+"@MMK_L_X" = {
+"@MMK_R_O" = -48;
+"@MMK_R_o" = -24;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -180;
+"@MMK_R_O" = -72;
+"@MMK_R_V" = 22;
+"@MMK_R_Y" = 10;
+"@MMK_R_o" = -187;
+"@MMK_R_u" = -90;
+};
+"@MMK_L_Z" = {
+"@MMK_R_o" = -50;
+};
+"@MMK_L_a" = {
+"@MMK_R_a" = 10;
+"@MMK_R_l" = 10;
+"@MMK_R_n" = 10;
+"@MMK_R_t" = -14;
+"@MMK_R_u" = 10;
+"@MMK_R_z" = 10;
+};
+"@MMK_L_c" = {
+"@MMK_R_a" = -6;
+"@MMK_R_o" = -12;
+"@MMK_R_t" = -18;
+};
+"@MMK_L_e" = {
+"@MMK_R_f" = -58;
+"@MMK_R_o" = 10;
+"@MMK_R_t" = -38;
+"@MMK_R_v" = -42;
+"@MMK_R_x" = -12;
+};
+"@MMK_L_f" = {
+"@MMK_R_o" = -96;
+"@MMK_R_u" = -16;
+};
+"@MMK_L_g" = {
+"@MMK_R_n" = 10;
+"@MMK_R_y" = -8;
+};
+"@MMK_L_i" = {
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 10;
+};
+"@MMK_L_k" = {
+"@MMK_R_o" = -40;
+};
+"@MMK_L_n" = {
+"@MMK_R_a" = 10;
+"@MMK_R_g" = 10;
+"@MMK_R_i" = 10;
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_t" = -40;
+"@MMK_R_v" = -16;
+"@MMK_R_w" = -16;
+"@MMK_R_y" = -16;
+"@MMK_R_z" = 10;
+m = 10;
+};
+"@MMK_L_o" = {
+"@MMK_R_a" = 40;
+"@MMK_R_f" = -66;
+"@MMK_R_g" = 20;
+"@MMK_R_i" = 10;
+"@MMK_R_l" = 0;
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 40;
+"@MMK_R_t" = -30;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -32;
+"@MMK_R_w" = -20;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -100;
+"@MMK_R_o" = -80;
+"@MMK_R_s" = -32;
+};
+"@MMK_L_s" = {
+"@MMK_R_s" = -8;
+"@MMK_R_t" = 8;
+};
+"@MMK_L_t" = {
+"@MMK_R_o" = -26;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -32;
+"@MMK_R_v" = 8;
+};
+"@MMK_L_w" = {
+"@MMK_R_o" = -20;
+};
+"@MMK_L_x" = {
+"@MMK_R_o" = -12;
+"@MMK_R_x" = 8;
+};
+"@MMK_L_y" = {
+"@MMK_R_n" = 10;
+"@MMK_R_o" = -21;
+"@MMK_R_y" = 8;
+};
+"@MMK_L_z" = {
+"@MMK_R_n" = 10;
+};
+L = {
+a = -60;
+};
+P = {
+n = -20;
+};
+m = {
+"@MMK_R_n" = 10;
+};
+r = {
+o = -68;
+};
+};
+m01 = {
+"@MMK_L_A" = {
+"@MMK_R_O" = -88;
+"@MMK_R_S" = -14;
+"@MMK_R_T" = -134;
+"@MMK_R_U" = -56;
+"@MMK_R_W" = -110;
+"@MMK_R_Y" = -220;
+"@MMK_R_a" = 17;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -30;
+V = -220;
+};
+"@MMK_L_B" = {
+"@MMK_R_A" = -16;
+"@MMK_R_O" = 0;
+"@MMK_R_S" = 0;
+"@MMK_R_o" = 6;
+};
+"@MMK_L_C" = {
+"@MMK_R_A" = -18;
+"@MMK_R_O" = -8;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_D" = {
+"@MMK_R_A" = -56;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -24;
+"@MMK_R_S" = -28;
+};
+"@MMK_L_E" = {
+"@MMK_R_o" = -52;
+};
+"@MMK_L_F" = {
+"@MMK_R_o" = -38;
+};
+"@MMK_L_G" = {
+"@MMK_R_A" = -40;
+"@MMK_R_o" = 24;
+};
+"@MMK_L_I" = {
+"@MMK_R_H" = 30;
+"@MMK_R_o" = -22;
+};
+"@MMK_L_K" = {
+"@MMK_R_O" = -60;
+"@MMK_R_n" = -12;
+"@MMK_R_o" = -60;
+};
+"@MMK_L_L" = {
+"@MMK_R_O" = -94;
+"@MMK_R_U" = -46;
+"@MMK_R_o" = -38;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -82;
+"@MMK_R_I" = -16;
+"@MMK_R_O" = 30;
+"@MMK_R_T" = -64;
+"@MMK_R_V" = -56;
+"@MMK_R_W" = -54;
+"@MMK_R_X" = -48;
+"@MMK_R_Y" = -72;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -186;
+"@MMK_R_o" = -60;
+};
+"@MMK_L_R" = {
+"@MMK_R_O" = -8;
+"@MMK_R_T" = -14;
+};
+"@MMK_L_S" = {
+"@MMK_R_O" = -10;
+"@MMK_R_y" = -48;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -148;
+"@MMK_R_O" = -64;
+"@MMK_R_n" = -160;
+"@MMK_R_o" = -176;
+"@MMK_R_u" = -182;
+"@MMK_R_y" = -126;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -72;
+};
+"@MMK_L_V" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -166;
+"@MMK_R_u" = -100;
+A = -216;
+};
+"@MMK_L_W" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -94;
+};
+"@MMK_L_X" = {
+"@MMK_R_O" = -48;
+"@MMK_R_o" = -60;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -220;
+"@MMK_R_O" = -72;
+"@MMK_R_Y" = 16;
+"@MMK_R_o" = -197;
+"@MMK_R_u" = -116;
+};
+"@MMK_L_Z" = {
+"@MMK_R_o" = -50;
+};
+"@MMK_L_a" = {
+"@MMK_R_g" = 10;
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_z" = 10;
+};
+"@MMK_L_c" = {
+"@MMK_R_a" = -8;
+"@MMK_R_o" = -8;
+};
+"@MMK_L_e" = {
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -38;
+"@MMK_R_x" = -12;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = 8;
+"@MMK_R_o" = -94;
+};
+"@MMK_L_g" = {
+"@MMK_R_n" = 10;
+"@MMK_R_y" = -16;
+};
+"@MMK_L_k" = {
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -74;
+};
+"@MMK_L_n" = {
+"@MMK_R_a" = 10;
+"@MMK_R_g" = 10;
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_t" = -40;
+"@MMK_R_z" = 10;
+};
+"@MMK_L_o" = {
+"@MMK_R_a" = 20;
+"@MMK_R_f" = -22;
+"@MMK_R_g" = 20;
+"@MMK_R_n" = 10;
+"@MMK_R_o" = 24;
+"@MMK_R_t" = -48;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -58;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -26;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -86;
+"@MMK_R_n" = -14;
+"@MMK_R_o" = -58;
+};
+"@MMK_L_s" = {
+"@MMK_R_s" = -18;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -38;
+};
+"@MMK_L_w" = {
+"@MMK_R_o" = -24;
+};
+"@MMK_L_x" = {
+"@MMK_R_o" = -12;
+"@MMK_R_x" = 8;
+};
+"@MMK_L_y" = {
+"@MMK_R_o" = -36;
+};
+"@MMK_L_z" = {
+"@MMK_R_n" = 10;
+};
+L = {
+a = -60;
+};
+P = {
+n = -20;
+};
+r = {
+o = -54;
+};
+};
+m002 = {
+"@MMK_L_A" = {
+"@MMK_R_O" = -86;
+"@MMK_R_S" = -14;
+"@MMK_R_T" = -140;
+"@MMK_R_U" = -48;
+"@MMK_R_W" = -136;
+"@MMK_R_Y" = -248;
+"@MMK_R_o" = -20;
+V = -216;
+};
+"@MMK_L_B" = {
+"@MMK_R_A" = -28;
+"@MMK_R_O" = 0;
+"@MMK_R_o" = 10;
+};
+"@MMK_L_C" = {
+"@MMK_R_A" = -18;
+"@MMK_R_O" = -28;
+"@MMK_R_o" = -24;
+};
+"@MMK_L_D" = {
+"@MMK_R_A" = -56;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -24;
+"@MMK_R_S" = -28;
+};
+"@MMK_L_E" = {
+"@MMK_R_o" = -50;
+};
+"@MMK_L_F" = {
+"@MMK_R_o" = -28;
+};
+"@MMK_L_G" = {
+"@MMK_R_A" = -68;
+};
+"@MMK_L_I" = {
+"@MMK_R_H" = 30;
+"@MMK_R_o" = -14;
+};
+"@MMK_L_K" = {
+"@MMK_R_O" = -108;
+"@MMK_R_n" = -24;
+"@MMK_R_o" = -120;
+};
+"@MMK_L_L" = {
+"@MMK_R_O" = -112;
+"@MMK_R_U" = -80;
+"@MMK_R_o" = -69;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -82;
+"@MMK_R_I" = -16;
+"@MMK_R_O" = 30;
+"@MMK_R_T" = -62;
+"@MMK_R_V" = -56;
+"@MMK_R_W" = -56;
+"@MMK_R_X" = -48;
+"@MMK_R_Y" = -92;
+"@MMK_R_o" = 32;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -160;
+"@MMK_R_o" = -42;
+};
+"@MMK_L_R" = {
+"@MMK_R_O" = -8;
+"@MMK_R_o" = -48;
+};
+"@MMK_L_S" = {
+"@MMK_R_O" = -10;
+"@MMK_R_y" = -48;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -148;
+"@MMK_R_O" = -62;
+"@MMK_R_n" = -160;
+"@MMK_R_o" = -150;
+"@MMK_R_u" = -120;
+"@MMK_R_y" = -126;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -72;
+};
+"@MMK_L_V" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -186;
+"@MMK_R_u" = -110;
+A = -216;
+};
+"@MMK_L_W" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -120;
+};
+"@MMK_L_X" = {
+"@MMK_R_O" = -56;
+"@MMK_R_o" = -96;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -248;
+"@MMK_R_O" = -92;
+"@MMK_R_o" = -273;
+"@MMK_R_u" = -208;
+};
+"@MMK_L_Z" = {
+"@MMK_R_Z" = -22;
+};
+"@MMK_L_a" = {
+"@MMK_R_f" = 12;
+"@MMK_R_j" = 72;
+"@MMK_R_n" = 12;
+"@MMK_R_o" = 12;
+"@MMK_R_s" = 12;
+"@MMK_R_u" = 12;
+"@MMK_R_z" = 12;
+};
+"@MMK_L_c" = {
+"@MMK_R_a" = -22;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_e" = {
+"@MMK_R_a" = 14;
+"@MMK_R_n" = 12;
+"@MMK_R_o" = 30;
+"@MMK_R_t" = -6;
+"@MMK_R_u" = 12;
+"@MMK_R_v" = -42;
+"@MMK_R_x" = -12;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = 10;
+"@MMK_R_o" = -44;
+};
+"@MMK_L_g" = {
+"@MMK_R_n" = 10;
+};
+"@MMK_L_i" = {
+"@MMK_R_j" = 50;
+};
+"@MMK_L_k" = {
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -96;
+};
+"@MMK_L_n" = {
+"@MMK_R_g" = 12;
+"@MMK_R_j" = 64;
+"@MMK_R_n" = 12;
+"@MMK_R_o" = 12;
+"@MMK_R_t" = -53;
+"@MMK_R_u" = 12;
+"@MMK_R_v" = -24;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -24;
+"@MMK_R_z" = 12;
+m = 12;
+};
+"@MMK_L_o" = {
+"@MMK_R_a" = 10;
+"@MMK_R_n" = 12;
+"@MMK_R_o" = 36;
+"@MMK_R_u" = 12;
+"@MMK_R_v" = -42;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -38;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -68;
+"@MMK_R_n" = 12;
+"@MMK_R_o" = -58;
+"@MMK_R_s" = -8;
+"@MMK_R_u" = -14;
+};
+"@MMK_L_t" = {
+"@MMK_R_o" = -10;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -42;
+};
+"@MMK_L_w" = {
+"@MMK_R_o" = -24;
+"@MMK_R_w" = 16;
+};
+"@MMK_L_x" = {
+"@MMK_R_o" = -12;
+"@MMK_R_x" = 8;
+};
+"@MMK_L_y" = {
+"@MMK_R_n" = 12;
+"@MMK_R_o" = -38;
+"@MMK_R_y" = 12;
+};
+"@MMK_L_z" = {
+"@MMK_R_n" = 10;
+};
+L = {
+a = -60;
+};
+P = {
+n = -20;
+};
+euro = {
+seven = -20;
+};
+m = {
+"@MMK_R_n" = 12;
+};
+r = {
+o = -68;
+};
+yen = {
+four = -32;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+unitsPerEm = 2048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m002 = {
+HH = "400";
+HV = "416";
+OH = "410";
+OV = "412";
+oH = "313";
+oV = "320";
+};
+m01 = {
+HH = "164";
+HV = "176";
+OH = "168";
+OV = "178";
+nV = "172";
+nd = "158";
+oH = "158";
+oV = "172";
+tH = "166";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

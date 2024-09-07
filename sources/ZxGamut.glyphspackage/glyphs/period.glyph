@@ -1,0 +1,79 @@
+{
+glyphname = period;
+layers = (
+{
+associatedMasterId = m01;
+layerId = "494DF8B4-FE9F-4C2D-8469-F2B3B4DCACF0";
+name = "May 19, 24 at 11:45";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,-24,o),
+(356,27,o),
+(356,98,cs),
+(356,169,o),
+(304,220,o),
+(233,220,cs),
+(162,220,o),
+(110,169,o),
+(110,98,cs),
+(110,27,o),
+(162,-24,o),
+(233,-24,cs)
+);
+}
+);
+width = 466;
+},
+{
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,0,l),
+(340,224,l),
+(114,224,l),
+(114,0,l)
+);
+}
+);
+width = 454;
+},
+{
+layerId = m002;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(416,0,l),
+(416,296,l),
+(120,296,l),
+(120,0,l)
+);
+}
+);
+width = 536;
+},
+{
+layerId = m003;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(182,0,l),
+(182,73,l),
+(110,73,l),
+(110,0,l)
+);
+}
+);
+width = 292;
+}
+);
+unicode = 46;
+}
