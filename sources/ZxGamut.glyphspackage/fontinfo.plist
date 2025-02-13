@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3509";
 .formatVersion = 3;
 axes = (
 {
@@ -26,6 +26,13 @@ name = CaseSensitiveSymbolsBefore;
 {
 code = "colon.case hyphen.case endash.case emdash.case at.case plus.case minus.case multiply.case divide.case equal.case greater.case less.case colon.case.tf hyphen.case.tf plus.case.tf minus.case.tf multiply.case.tf divide.case.tf equal.case.tf greater.case.tf less.case.tf";
 name = CaseSensitiveSymbolsAfter;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
 }
 );
 date = "2024-09-26 06:11:17 +0000";
@@ -1069,6 +1076,30 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The Zx Gamut Project Authors (https://github.com/0xType/Gamut)";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 }
 );
 unitsPerEm = 2048;
