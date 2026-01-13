@@ -5,7 +5,7 @@ MAIN_GLYPHS_FILE = $(SOURCE_DIR)/$(FONT_NAME).glyphspackage
 OUTPUT_DIR = fonts
 OUTPUT_STATIC_DIR = $(OUTPUT_DIR)/static
 OUTPUT_VARIABLE_DIR = $(OUTPUT_DIR)/variable
-VF_SUFFIX = -Variable
+VF_SUFFIX = [wght]
 WOFF2_DIR = woff2
 
 setup:
