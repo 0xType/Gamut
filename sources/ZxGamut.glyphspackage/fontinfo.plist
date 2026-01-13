@@ -238,6 +238,17 @@ fontMaster = (
 axesValues = (
 100
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
+}
+);
 iconName = Light;
 id = m003;
 metricValues = (
@@ -274,6 +285,17 @@ visible = 1;
 axesValues = (
 400
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+}
+);
 id = m01;
 metricValues = (
 {
@@ -304,6 +326,17 @@ visible = 1;
 {
 axesValues = (
 900
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
+}
 );
 iconName = Bold;
 id = m002;
@@ -343,6 +376,17 @@ type = variable;
 axesValues = (
 100
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 m003 = 1;
 };
@@ -352,6 +396,17 @@ weightClass = 100;
 {
 axesValues = (
 200
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
+}
 );
 instanceInterpolations = {
 m003 = 0.66667;
@@ -364,6 +419,17 @@ weightClass = 200;
 axesValues = (
 300
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
+}
+);
 instanceInterpolations = {
 m003 = 0.33333;
 m01 = 0.66667;
@@ -375,6 +441,21 @@ weightClass = 300;
 axesValues = (
 400
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wght;
+}
+);
 instanceInterpolations = {
 m01 = 1;
 };
@@ -383,6 +464,17 @@ name = Regular;
 {
 axesValues = (
 500
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+}
+);
+}
 );
 instanceInterpolations = {
 m002 = 0.2;
@@ -395,6 +487,17 @@ weightClass = 500;
 axesValues = (
 600
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+}
+);
+}
+);
 instanceInterpolations = {
 m002 = 0.4;
 m01 = 0.6;
@@ -405,6 +508,17 @@ weightClass = 600;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
+}
 );
 instanceInterpolations = {
 m002 = 0.6;
@@ -419,6 +533,17 @@ weightClass = 700;
 axesValues = (
 800
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
+}
+);
 instanceInterpolations = {
 m002 = 0.8;
 m01 = 0.2;
@@ -429,6 +554,17 @@ weightClass = 800;
 {
 axesValues = (
 900
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
+}
 );
 instanceInterpolations = {
 m002 = 1;
