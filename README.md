@@ -24,4 +24,4 @@ A. [Here](https://github.com/0xType/Gamut/releases)
 
 The SIL Open Font License, Version 1.1
 
-Copyright (c) 2024 [0xType](https://0xtype.dev)
+Copyright (c) 2026 [0xType](https://0xtype.dev)
