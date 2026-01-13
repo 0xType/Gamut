@@ -469,6 +469,12 @@ visible = 1;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Export STAT Table";
+value = 1;
+}
+);
 name = Regular;
 type = variable;
 },
@@ -485,6 +491,10 @@ Axis = Weight;
 Location = 100;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -506,6 +516,10 @@ Axis = Weight;
 Location = 200;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -528,6 +542,10 @@ Axis = Weight;
 Location = 300;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -574,6 +592,10 @@ Axis = Weight;
 Location = 500;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -596,6 +618,10 @@ Axis = Weight;
 Location = 600;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -618,6 +644,10 @@ Axis = Weight;
 Location = 700;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -642,6 +672,10 @@ Axis = Weight;
 Location = 800;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -664,6 +698,10 @@ Axis = Weight;
 Location = 900;
 }
 );
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
