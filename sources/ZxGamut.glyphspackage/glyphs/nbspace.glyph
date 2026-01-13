@@ -3,7 +3,7 @@ glyphname = nbspace;
 layers = (
 {
 layerId = m01;
-width = 516;
+width = 600;
 },
 {
 layerId = m002;
