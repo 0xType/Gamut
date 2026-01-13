@@ -23,9 +23,24 @@ build:
 
 compile-static: $(MAIN_GLYPHS_FILE)
 	fontmake -a -g $(MAIN_GLYPHS_FILE) -i --output-dir $(OUTPUT_STATIC_DIR)
+	@echo "Fixing hinting for all static fonts..."
+	@for weight in $(WEIGHTS); do \
+		if [ -f $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.ttf ]; then \
+			gftools fix-hinting $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.ttf; \
+			mv $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.ttf.fix $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.ttf; \
+		fi; \
+		if [ -f $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.otf ]; then \
+			gftools fix-hinting $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.otf; \
+			if [ -f $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.otf.fix ]; then \
+				mv $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.otf.fix $(OUTPUT_STATIC_DIR)/$(FONT_NAME)-$$weight.otf; \
+			fi; \
+		fi; \
+	done
 
 compile-variable: $(MAIN_GLYPHS_FILE)
 	fontmake -a -g $(MAIN_GLYPHS_FILE) -o variable --output-path $(OUTPUT_VARIABLE_DIR)/$(FONT_NAME)$(VF_SUFFIX).ttf
+	python scripts/fix-stat-table.py $(OUTPUT_VARIABLE_DIR)/$(FONT_NAME)$(VF_SUFFIX).ttf
+	gftools fix-nonhinting $(OUTPUT_VARIABLE_DIR)/$(FONT_NAME)$(VF_SUFFIX).ttf $(OUTPUT_VARIABLE_DIR)/$(FONT_NAME)$(VF_SUFFIX).ttf
 
 compile-woff2: compile-static compile-variable
 	@for weight in $(WEIGHTS); do \
@@ -47,3 +62,17 @@ install-variable: $(OUTPUT_VARIABLE_DIR)/$(FONT_NAME)VF.ttf
 install:
 	$(MAKE) build
 	$(MAKE) install-variable
+
+.PHONY: test
+test:
+	$(MAKE) test-gf
+
+test-gf:
+	$(MAKE) test-gf-variable
+	$(MAKE) test-gf-static
+
+test-gf-variable:
+	fontbakery check-googlefonts fonts/variable/ZxGamut\[wght\].ttf
+
+test-gf-static:
+	fontbakery check-googlefonts fonts/static/ZxGamut-Bold.ttf
