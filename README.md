@@ -1,5 +1,7 @@
 # Zx Gamut
 
+​Zx Gamut is a modern variable sans-serif typeface designed with the precision of software engineering. It strikes a unique visual balance by harmonizing fluid, rounded forms with sharp, calculated edges, creating a dynamic rhythm across any digital canvas.
+
 ![Zx Gamut](./images/gamut.png)
 ![Geometiric font](./images/geometric.png)
 ![Glyphs examples](./images/glyphs.png)
