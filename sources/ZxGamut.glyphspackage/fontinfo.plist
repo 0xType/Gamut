@@ -526,7 +526,7 @@ instanceInterpolations = {
 m003 = 0.66667;
 m01 = 0.33333;
 };
-name = "Extra Light";
+name = ExtraLight;
 weightClass = 200;
 },
 {
@@ -628,7 +628,7 @@ instanceInterpolations = {
 m002 = 0.4;
 m01 = 0.6;
 };
-name = "Semi Bold";
+name = SemiBold;
 weightClass = 600;
 },
 {
@@ -682,7 +682,7 @@ instanceInterpolations = {
 m002 = 0.8;
 m01 = 0.2;
 };
-name = "Extra Bold";
+name = ExtraBold;
 weightClass = 800;
 },
 {
